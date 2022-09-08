@@ -1,5 +1,5 @@
 :root {
-  --red: #9c3842;
+  --red: #d13948;
 }
 
 /*! -------------- 1- NAVBAR ---------------- */
@@ -15,9 +15,32 @@
 }
 .nav-link:hover {
   color: var(--red);
+  height: 0.4rem !important;
+  width: 3rem !important;
+  margin-right: 0.5rem !important;
 }
 /*! ------------- 2- CAROUSEL --------------- */
 
+.carousel-item h5 {
+  color: var(--red);
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.carousel-item p {
+  text-shadow: 2px 2px 2px black;
+  font-weight: 600;
+}
+
+.carousel-item button {
+  width: 6rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+
+.carousel-indicators button {
+  background-color: var(--red) !important;
+}
 /*! ------------ 3- ABOUT SECTION ----------- */
 
 /*! ------------- 4- INSTRUCTORS -------------*/
