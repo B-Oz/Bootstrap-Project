@@ -68,7 +68,24 @@ section#instructor .socials i:hover {
 }
 /*! ----------- 4- STUDENTS SECTION ----------*/
 
+section#student img {
+  max-width: 400px;
+  min-width: 200px;
+}
+
 /*! ----------- 5- COURSES SECTION ----------- */
+.tab-content img {
+  border: 8px solid white;
+  border-radius: 1rem;
+}
+
+section#courses .nav-link.active {
+  background-color: var(--red);
+}
+
+section#courses .nav-link {
+  color: white;
+}
 
 /*! ----------- 6- CONTACT SECTION ------------ */
 
