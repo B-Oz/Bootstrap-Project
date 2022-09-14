@@ -92,3 +92,13 @@ section#courses .nav-link {
 /** -------------- UP-BUTTON ------------------ */
 
 /*! --------------- 7- FOOTER ----------------- */
+
+footer i {
+  font-size: 2rem;
+  color: azure;
+  margin: 0.5rem;
+}
+
+footer {
+  font-size: 14px;
+}
